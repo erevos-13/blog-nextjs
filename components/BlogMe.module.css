@@ -1,0 +1,16 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #202020c7;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px #202020 solid;
+    overflow: hidden;
+}

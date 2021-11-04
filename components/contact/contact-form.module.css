@@ -1,0 +1,47 @@
+.formControls {
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+
+
+.form label {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: var(--size-2) 0 var(--size-1) 0;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: var(--size-1);
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: white;
+    resize: none;
+   
+}
+.isInValid{
+    border: solid red 1px !important;
+}
+.isInValid:focus-visible :focus{
+    border: solid red 1px !important;
+}
+
+.InValidTextContainer{
+    height: 15px;
+    width: 100%;
+}
+.InvalidText{
+    text-align: left;
+    font-size: 14px;
+    color: red;
+    padding: 0;
+    
+}
+
