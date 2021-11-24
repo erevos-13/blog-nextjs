@@ -6,6 +6,7 @@ const ContactPage: NextPage = () => {
   return (
     <div className={styles.contact}>
       <ContactForm />
+      <p>add for test</p>
       
     </div>
   );
